@@ -1,0 +1,52 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+  border: 2px solid slategrey;
+  box-shadow: 1px 1px 2px black;
+}
+
+.card:hover {
+  box-shadow: 3px 3px 5px black;
+  margin: 15px 25px 20px 20px;
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+#closeIcon > button {
+  border-radius: 50%;
+  padding: 0.125rem 0.5rem;
+  font-weight: bold;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.iconoClima {
+  background-color: deepskyblue;
+  border-radius: 50%;
+}
+
+.row:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0px 0 0;
+  border: 2px solid gray;
+  background-color: seashell;
+  border-radius: 20px;
+  padding: 20px 40px 20px 0px;
+}
+
+.row p {
+  margin-top: 6px;
+}
